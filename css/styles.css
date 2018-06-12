@@ -14,7 +14,7 @@ body {
 #home {
 	height: 100%;
 	width: 100%;
-    background: url("../images/maarten-van-den-heuvel-246398-unsplash.jpg");
+    background: url("../pictures/reto-simonet-369047-unsplash.jpg");
     background-size: cover;
     display: table;
     background-attachment: fixed;
@@ -34,6 +34,18 @@ body {
     background-size: cover;
     display: table;
     background-attachment: fixed;
+}
+#home .content {
+	 height: 100%;
+	background: -webkit-linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.4));
+	background: -o-linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.4));
+	background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.64);
+}
+#home .content .info {
+	margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
 
 
