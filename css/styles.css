@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  font-weight: 400;
+  
+}
+.page-body {
+	height: auto;
+	overflow-y: scroll;
+}
+#home {
+	height: 100%;
+	width: 100%;
+    background: url("../images/maarten-van-den-heuvel-246398-unsplash.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#about{
+	height: 50%;
+    width: 100%;
+    background: url("../pictures/rob-lambert-64186-unsplash.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#contact {
+	height: 50%;
+    width: 100%;
+    background: url("../images/maarten-van-den-heuvel-246398-unsplash.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+
